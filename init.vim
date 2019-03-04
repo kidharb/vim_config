@@ -15,7 +15,7 @@ set statusline+=%l/%L   "cursor line/total lines
 set statusline+=\ %P    "percent through file
 set statusline+=\ %{strftime('%c')}    "current time
 
-set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
+"set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set number
 set autoread
 
@@ -49,6 +49,9 @@ Plugin 'jremmen/vim-ripgrep'
 Plugin 'thaerkh/vim-indentguides'
 Plugin 'mhinz/vim-startify'
 Plugin 'kshenoy/vim-signature'
+Plugin 'lervag/vimtex'
+Plugin 'vim-scripts/BufOnly.vim'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 call vundle#end()
 filetype plugin indent on
 
